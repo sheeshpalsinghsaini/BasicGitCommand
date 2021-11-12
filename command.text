@@ -1,0 +1,49 @@
+1. git config --global user.name "sheeshpal" --->set user name
+
+2. git config --global user.email "example@gmail.com" --->set email
+
+3. git init ---> initialize git repository
+
+4. git clone address----> clone/fetch/download repository from github.
+
+5. git add "filename" -->track file by git.
+
+6. git add . ---> track all by by . 
+
+7. git commit -m "any msg related to commit"
+
+8. git status --->tell current status about git repository.
+
+9. git remote add origin address_remote_repo.
+
+10. git remote -v --->show where to fetch and push data.
+
+11. git branch "newBrachName" --> create new branch.
+
+12. git branch "newBranchName" hashCode --> create Branch from any commit by hash code.
+
+13. git checkout branchName--->shift to other branch.
+
+14. git branch -d "branchName" --->delete branch into local machine.
+
+14.1 git push -d origin branchName --> delete branch into remote location.
+
+15. git push -u origin master/main.
+
+15. git push -u origin anyotherbranchName.-->push other branch, if not exit into remote then it create.
+
+16. git push --all origin --> push all branch at origin.
+
+17. git pull -->fetch and merger changes on the remote to your working directory.
+
+18. git merge <branchName> --->merg branch into current branch.
+
+19. git log -->show all commit
+
+20. git log -1 --> show last one commit
+
+21. git log -2 --> show last two commit.
+
+22. git log --oneline -->how all commit in short.
+
+23. git branch -M newBranchName -->change branch name.
