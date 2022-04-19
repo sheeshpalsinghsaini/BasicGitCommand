@@ -150,11 +150,12 @@ and try to merge it then it show to us a conflict.
         git clean -d -i     //delete recursivly
 
 
-# Revert command :
 
+# Revert command :
     git revert <hashcode>       // make a new commit after changes of above given hashcode.
 
     //now our repo is ahead one commit form the remote repo.
+
 
 
     //now for get deleted commited revert new revert commit
